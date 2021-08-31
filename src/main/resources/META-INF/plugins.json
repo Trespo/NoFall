@@ -1,0 +1,32 @@
+{
+  "plugins": [
+    {
+      "loader": "java_plain",
+      "id": "NoFall",
+      "name": "NoFall",
+      "version": "${version}",
+      "main-class": "org.trespo.nofall.NoFall",
+      "description": "No fall damage plugin for sponge mc",
+      "links": {
+      },
+      "contributors": [
+        {
+          "name": "Trespo",
+          "description": "Author"
+        },
+        {
+          "name": "MoseMister",
+          "description": "Author"
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "spongeapi",
+          "version": "8.0.0-SNAPSHOT",
+          "load-order": "AFTER",
+          "optional": false
+        }
+      ]
+    }
+  ]
+}
